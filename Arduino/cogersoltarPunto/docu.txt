@@ -1,0 +1,5 @@
+sudo cp librxtxSerial.so /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/
+sudo usermod -aG uucp juanma
+sudo apt-get install librxtx-java
+sudo ln -s /dev/ttyACM0 /dev/ttyS01
+
